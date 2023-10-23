@@ -1,0 +1,9 @@
+package com.octo.octo_beat_plugin.core.ble
+
+object DeviceUUID {
+    const val SERVICE_UUID = "0000fefb-0000-1000-8000-00805f9b34fb"
+    const val TX_UUID_CRE = "00000004-0000-1000-8000-008025000000"
+    const val RX_UUID_CRE = "00000003-0000-1000-8000-008025000000"
+    const val TX_UUID_DATA = "00000002-0000-1000-8000-008025000000"
+    const val RX_UUID_DATA = "00000001-0000-1000-8000-008025000000"
+}

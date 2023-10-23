@@ -1,0 +1,3 @@
+rootProject.name = 'octo_beat_plugin'
+include ':android-terminalio'
+project(':android-terminalio').projectDir = file('../android/android-terminalio')
